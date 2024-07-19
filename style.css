@@ -1,0 +1,559 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.man{
+    background: url(files/i1.jpg);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px,1800px);
+}
+.box{
+    width: 100%;
+    height: 700px;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+.ubox{
+    width: 100%;
+    top: 10%;
+    height: 550px;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.nbox{
+    width: 100%;
+    height: 280px;
+}
+.u1box h1{
+    color: #fff;
+    font-size: 47px;
+    position: relative;
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 850;
+}
+.u1box h2{
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 100;
+}
+.u2box{
+    width: 600px;
+    height: 55px;
+    margin-top: 8px;
+    margin-bottom: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.u2box input{
+    width: 380px;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 10px;
+    background-color: black;
+    color: azure;
+    border-radius: 7px;
+    border: 2px solid rgb(101, 98, 98);
+}
+.u2box button{
+    width: 200px;
+    height: 50px;
+    font-size: 27px;
+    border-radius: 7px;
+    background-color: rgb(230, 6, 6);
+    border: 2px solid rgb(230, 6, 6);
+    color: #fff;
+    transition: 0.15s;
+}
+.u2box button:hover{
+    opacity: 0.85;
+}
+.mbox{
+    width: 100%;
+    height: 55px;
+    display:grid;
+    place-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+}
+nav img{
+    filter: contrast(1000%);
+    position: relative;
+    z-index: 1;
+}
+.bu{
+    width: 230px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.E{
+    border: 1px solid white;
+    background-color: black;
+    color: aliceblue;
+    width: 120px;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 17px;
+    filter: contrast(1000%);
+    position: relative;
+    z-index: 1;
+    transition: 0.15s;
+}
+.E:hover{
+    opacity: 0.8;
+}
+.S{
+    width: 80px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.15s;
+}
+.S:hover{
+    opacity: 0.8;
+}
+.fline1{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 26, 28);
+}
+.box2{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+.mbox1{
+    width:45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sbox1{
+    width:520px;
+    height: 155px;
+}
+.sbox1 h1{
+    font-size: 50px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sbox1 h2{
+    font-size: 22px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mbox2{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mbox2 img{
+    width: 533px;
+    height: 400px;
+    position:relative;
+}
+.mbox2 video{
+    width: 400px;
+    height: 240px;
+    position:absolute;
+    object-fit: contain;
+}
+.fline2{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 26, 28);
+}
+.box3{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+.tbox1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sbox2{
+    width: 79%;
+    height: 83%;
+    background-image: url(files/i3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30px;
+}
+.qbox{
+    background-color: black;
+    width: 50%;
+    height: 86px;
+    border: 2px solid rgb(144, 142, 142);
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 45px;
+}
+.qbox img{
+    height: 88%;
+    width: auto;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+}
+.qbox2{
+    width: 63%;
+    height: 82px;
+}
+.qbox2 h2{
+    width: 84%;
+    height: 16px;
+    font-size: 17px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 100;
+    padding-top: 26px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    border: 0px;
+}
+.qbox2 p{
+    width: 70%;
+    height: 22px;
+    font-size: 15px;
+    padding-bottom: 2px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 5px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 100;
+    color: rgb(13, 85, 200);
+}
+.qbox3{
+    width: 30%;
+    height: 70px;
+}
+.qbox3 img{
+    width: 80%;
+    height: 60px;
+}
+.tbox2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sbox3{
+    width: 580px;
+    height: 280px;
+}
+.sbox3 h1{
+    font-size: 50px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 830;
+}
+.sbox3 h2{
+    font-size: 28px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.fline3{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 26, 28);
+}
+.box4{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+.kbox1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sbox4{
+    width: 560px;
+    height: auto;
+}
+.sbox4 h1{
+    font-size: 50px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 830;
+}
+.sbox4 h2{
+    font-size: 25px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.kbox2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kbox2 img{
+    width: 533px;
+    height: 400px;
+    position:relative;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.kbox2 video{
+    width: 325px;
+    height: auto;
+    position:absolute;
+    object-fit: contain;
+    margin-bottom: 118px;
+    margin-left: 181px;
+}
+.fline4{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 26, 28);
+}
+.box5{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+.pbox1{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rbox{
+    width: 82%;
+    height: 82%;
+    background-image: url(files/i6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+.pbox2{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sbox5{
+    width: 600px;
+    height: auto;
+}
+.sbox5 h1{
+    font-size: 50px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 830;
+}
+.sbox5 h2{
+    font-size: 25px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.fline5{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 26, 28);
+}
+.box6{
+    width: 100%;
+    height: 960px;
+    background-color: black;
+    color: #fff;
+}
+.vbox1{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+.vbox1 h1{
+    font-size: 50px;
+    font-family: "Martel Sans", sans-serif;
+    padding-bottom: 10px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.vbox2{
+    width: 100%;
+    height:650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.abox1{
+    width:76%;
+    height: 80px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 10px;
+    transition: all 0.25s ease-in-out;
+}
+.abox1:hover{
+    background-color: #414141;
+}
+
+.abox1 h2{
+    font-size: 25px;
+    font-family: "Martel Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 400;
+    margin: 15px;
+}
+.abox1 span{
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #fff;
+    margin: 15px;
+}
+.vbox3{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.wbox1 h2{
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-weight: 100; 
+    font-family: "Martel Sans", sans-serif;
+}
+.wbox2{
+    width: 600px;
+    height: 55px;
+    margin-top: 8px;
+    margin-bottom: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wbox2 input{
+    width: 380px;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 10px;
+    background-color: black;
+    color: azure;
+    border-radius: 7px;
+    border: 2px solid rgb(101, 98, 98);
+}
+.wbox2 button{
+    width: 200px;
+    height: 53px;
+    font-size: 27px;
+    border-radius: 7px;
+    background-color: rgb(230, 6, 6);
+    border: 2px solid rgb(230, 6, 6);
+    color: #fff;
+    transition: 0.15s;
+}
+.fline6{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(26, 26, 28);
+}
+footer{
+    color: #cbc8c8;
+    margin: auto;
+    max-width: 100%;
+    background-color: black;
+    height: 300px;
+}
+.spa{
+    padding-top: 65px;
+    padding-left: 8.5%;
+}
+.footer{
+    display: grid;
+    max-width: 160vw;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+.quest{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    gap: 20px;
+}
+.quest a{
+    font-size: 14px;
+    color: #c9c8c8;
+    font-weight: 100; 
+    font-family: "Martel Sans", sans-serif;
+}
